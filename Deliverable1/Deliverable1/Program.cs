@@ -8,23 +8,37 @@ namespace Deliverable1
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            byte a = 10;
-            int b = 50;
-            short c = 100;
+            var a = 10;
+            var b = 50;
+            var c = 100;
+
+            String message1 = "The average is ";
+            String message2 = "The Lowest is ";
+            String message3 = " The highest number is ";
 
             Console.WriteLine(a);
             Console.WriteLine(b);
             Console.WriteLine(c);
+            Console.WriteLine(message1 + (a + b + c) / (3));
+            Console.WriteLine(message2 + (a));
+            Console.WriteLine(message3 + (c));
             Console.ReadLine();
+        }
+
+        public static void FindAverage()
+        {
+           
             
+
 
         }
 
-        
-        
-            
+
+
+
+
 
 
     }
