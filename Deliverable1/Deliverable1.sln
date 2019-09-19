@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deliverable1", "Deliverable1\Deliverable1.csproj", "{E45E82D9-B6E2-4E7E-B01F-D2607E2F4203}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deliverable1", "..\..\..\..\source\repos\Deliverable-1\Deliverable1\Deliverable1\Deliverable1.csproj", "{E45E82D9-B6E2-4E7E-B01F-D2607E2F4203}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +20,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {85EBCD18-7065-4414-9EA9-1241D333736E}
+		SolutionGuid = {28894845-A57F-42BF-ACB0-22BF37E189B5}
 	EndGlobalSection
 EndGlobal

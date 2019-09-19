@@ -24,7 +24,7 @@ namespace Deliverable1
             Console.WriteLine(b);
             Console.WriteLine(c);
 
-            Console.WriteLine(note + ((float)a + (float)b + (float)c)); 
+            Console.WriteLine(note + ((float)a + (float)b + (float)c));
             Console.WriteLine(message1 + ((float)a + (float)b + (float)c) / (3));
             Console.WriteLine(message2 + ((float)a));
             Console.WriteLine(message3 + ((float)c));
@@ -34,8 +34,8 @@ namespace Deliverable1
             System.Globalization.CultureInfo ci_JP = new CultureInfo("en-JP");
             System.Globalization.CultureInfo ci_TH = new CultureInfo("en-TH");
             CultureInfo ci;
-            
-        
+
+
 
             ci = ci_US;
             Console.WriteLine(string.Format(ci, "{0:C}, {1:C}, {2:C}", 10, 50, 100));
@@ -54,7 +54,7 @@ namespace Deliverable1
             Console.ReadLine();
         }
 
-        
+
 
 
     }
@@ -66,4 +66,7 @@ namespace Deliverable1
 
 }
 
- 
+
+
+
+
